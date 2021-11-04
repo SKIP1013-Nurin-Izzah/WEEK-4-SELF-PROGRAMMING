@@ -1,21 +1,46 @@
 package selfProgramming;
 
-import java.util.Scanner;
-
-public class Echo {
+public class PrecedenceQuestions {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// What values result from the following expressions?
+		// 9 / 5
+		// 695 % 20
+		// 7 + 6 * 5
+		// 7 * 6 + 5
+		// 248 % 100 / 5
+		// 6 * 3 - 9 / 4
+		// (5 - 7) * 4
+		// 6 + (18 % (17 - 12))
 		
-		String message;
-		Scanner scan = new Scanner (System.in);
+		double calc;
 		
-		System.out.println("Enter a line of text: ");
+		calc = 9/5;
+		System.out.println("The answer is: "+calc);
 		
-		message = scan.nextLine();
+		calc = 695%20;
+		System.out.println("The answer is: "+calc);
 		
-		System.out.println("You entered: \"" + message + "\"");
+		calc = 7+6*5;
+		System.out.println("The answer is: "+calc);
+		
+		calc = 7*6+5;
+		System.out.println("The answer is: "+calc);
+		
+		calc = 248%100/5;
+		System.out.println("The answer is: "+calc);
+		
+		calc = 6*3-9/4;
+		System.out.println("The answer is: "+calc);
+		
+		calc = (5-7)*4;
+		System.out.println("The answer is: "+calc);
+		
+		calc = 6 + (18 % (17 - 12));
+		System.out.println("The answer is: "+calc);
 
 	}
 
 }
+
