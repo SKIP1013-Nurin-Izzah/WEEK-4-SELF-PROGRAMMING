@@ -1,27 +1,29 @@
 package selfProgramming;
 
-import java.util.Scanner;
-
-public class GasMileage {
+public class RemainderExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// What are the results of the following expressions?
+		// 45 % 6
+		// 2 % 2
+		// 8 % 20
+		// 11 % 0
+
+		double calc;
 		
-		int miles;
-		double gallons, mpg;
+		calc = 45%6;
+		System.out.println("The answer is: "+calc);
 		
-		Scanner scan = new Scanner (System.in);
+		calc = 2%2;
+		System.out.println("The answer is: "+calc);
 		
-		System.out.print("Enter the number of miles: ");
-		miles = scan.nextInt();
+		calc = 8%20;
+		System.out.println("The answer is: "+calc);
 		
-		System.out.print("Enter the gallons of fuel used: ");
-		gallons = scan.nextDouble();
-		
-		mpg = miles/gallons;
-		
-		System.out.print("Miles per gallon: " +mpg);
-		
+		calc = 11%0;
+		System.out.println("The answer is: "+calc); //cannot be calculated
+
 	}
 
 }
