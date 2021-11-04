@@ -1,3 +1,5 @@
-Enter the number of miles: 20
-Enter the gallons of fuel used: 2.5
-Miles per gallon: 8.0
+The answer is: 3.0
+The answer is: 0.0
+The answer is: 8.0
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at selfProgramming.RemainderExample.main(RemainderExample.java:24)
