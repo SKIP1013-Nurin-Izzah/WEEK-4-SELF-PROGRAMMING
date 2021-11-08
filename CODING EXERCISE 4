@@ -1,0 +1,26 @@
+package selfProgramming;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*find volume of a box with height of of 4m, width 6m and 
+		 * length 12m*/
+		 
+		int heigth=4, width=6, length=12, volume;
+		volume=heigth*width*length;
+		
+		System.out.println("The volume of box is: "+volume);
+		
+		/*find volume of a cylinder with heigth 20 and diameter 12m*/
+		
+		double heigth2=20, diameter=12, pi=3.142, volume2;
+		volume2=pi*((diameter/2)*(diameter/2))*heigth;
+		
+		System.out.println("The volume of cylinder is: "+volume2);
+		
+
+	}
+
+}
