@@ -1,0 +1,20 @@
+package selfProgramming;
+
+public class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Find the volume of cone and the answer in two decimal places*/
+		
+		double height=8, radius=3, volume, surfaceArea;
+		final double PI=3.142;
+		
+		volume=PI*(radius*radius)*(height/3);
+		
+		System.out.printf("The volume of cone is: %.2f" ,volume);
+		
+	}
+
+	
+	}
