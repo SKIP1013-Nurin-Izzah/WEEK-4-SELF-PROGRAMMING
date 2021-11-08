@@ -1,0 +1,42 @@
+package selfProgramming;
+
+public class Exercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*Find the perimeter of a triangle with sides measuring
+		 *  6 centimeters, 8 centimeters and 9 centimeters. */
+		
+		int side1 = 8, side2 = 9, side3 = 6, perimeter;
+		
+		perimeter = side1 + side2 + side3;
+		
+		System.out.println("The answer is: " +perimeter);
+	
+		/*A rectangle has an area of 56 square feet and a width of 4 feet. 
+		 * What is the length?*/ 
+		 
+		int area=56, width=4, length;
+		
+		length= area/width;
+		
+		System.out.println("The answer is: "+length);
+		
+		/*Find the perimeter of a regular octagon, with each side measuring 7 meters*/
+		
+		int side = 7;
+		
+		perimeter= side*8;
+		System.out.println("The answer is: "+perimeter);
+		
+		/*Find the area of a triangle with a base of 7 meters and a height of 4 meters*/
+		
+		int base=7, height=4;
+		
+		area= (1/2)*(base*height);
+		System.out.println("The answer is: "+area);
+		
+	}
+
+}
